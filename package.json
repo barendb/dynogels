@@ -30,12 +30,10 @@
     "async": "2.5.0",
     "uuid": "^3.3.2"
   },
-  "optionalDependencies": {
-    "aws-sdk": "^2.463.0",
-    "lodash": "^4.17.4"
-  },
   "devDependencies": {
     "@hapi/joi": "^15.1.0",
+    "aws-sdk": "^2.463.0",
+    "lodash": "^4.17.4",
     "chai": "4.1.2",
     "coveralls": "^3.0.6",
     "eslint": "4.19.1",
@@ -47,6 +45,8 @@
     "sinon": "4.0.1"
   },
   "peerDependencies": {
-    "@hapi/joi": "^15.1.0"
+    "@hapi/joi": "^15.1.0",
+    "aws-sdk": "^2.463.0",
+    "lodash": "^4.17.4"
   }
 }
